@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}
+.subscribe-btn{
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+  nav li{
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+
+.intro{
+    font-family: "Poppins", sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.intro a{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.intro p{
+    margin-bottom: 20px;
+}
+
+.header{
+    display: flex;
+    background-color: #f5f5f5b7;
+    /* min-height: 100vh; */
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    max-width: 350px;
+    object-position: 60%;
+}
+
+.hamburger{
+    display: none;
+}
+.image-box{
+    text-align: center;
+    margin: 10px;
+}
+
+.image-box h1{
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px;
+}
+.image-box img{
+    max-width: 20%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.statement{
+    text-align: center;
+    margin-top: 20px;
+    background: rgb(2,0,36);
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,110,9,1) 35%, rgba(0,212,255,1) 100%); */
+    margin: 20px;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 6px 12px 9px 0px rgba(0,0,0,0.51);
+-webkit-box-shadow: 6px 12px 9px 0px rgba(0,0,0,0.51);
+-moz-box-shadow: 6px 12px 9px 0px rgba(0,0,0,0.51);
+}
+
+.statement h2{
+    font-family: "Poppins", sans-serif;
+    margin: 10px;
+    color: white;
+}
+
+.statement p{
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.news-section{
+    text-align: center;
+} 
+
+.news-section img{
+    max-width: 30%;
+    margin: 20px;
+}
+
+.news{
+    margin: 20px;
+    /* width: 300px;
+    height: 200px; */
+    /* border-radius: 10px; */
+    font-family: "Poppins", sans-serif;
+text-align: center;
+}
+
+
+.news h1{
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    color: black;
+}
+
+.news p{
+    font-size: 20px;
+    color: black;
+}
+
+.advertisement{
+background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9925077450201378) 30%, rgba(0,0,0,0.6446816580636161) 100%),url(images/wju.jpg);
+height: 80vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right;
+}
+
+.div-er{
+    width: 50%;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 25px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.div-er h1{
+    color: #008080
+}
+
+.menubar{
+    display: none;
+}
+
+.nav-link img{
+    max-width: 30px;
+    filter: brightness(0) invert(1);
+}
+
+nav img{
+    max-width: 30px;
+}
+
+@media(max-width:800px){
+    .nav-link{
+        /* display: flex;
+        flex-direction: column; */
+        text-align: center;
+        width: 100%;
+        /* height: 100px; */
+        background-color: black;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+      .nav-link li{
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hamburger{
+        display: flex;
+    }
+
+
+    .nav-link a{
+        color: white;
+        
+    }
+}

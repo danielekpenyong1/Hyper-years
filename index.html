@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Crestbridge Academy</title>
+</head>
+<body>
+    <nav>
+        <a href="home.html"class="Logo"><h1>HyperYears Academy</h1></a>
+        
+        <ul class="nav-link" id="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Academics</a></li>
+            <li><a href="">News and events</a></li>
+        </ul>
+    
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    </nav>
+    
+    <section class="header" data-aos="fade-down">
+        <div class="intro">
+            <h1>
+                THE PLACE FOR RAISING GIANTS
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique <br> ducimus sunt ipsa deleniti porro dolores impedit assumenda iusto eveniet ipsum?</p>
+            <a href="">Enroll for free now</a>
+        </div>
+        <img src="./images/hero-image-1.png" alt="High School Student">
+    </section>
+
+    <section class="section-2" data-aos="fade-down">
+        <div class="image-box">
+            <h1>Registered member of</h1>
+            <img src="./images/cambridge.jpeg" alt="">
+        </div>
+        <div class="row">
+            <div class="statement">
+                <h2>Our Vision</h2>
+                <p>"To be a leading education provider, and a reference standard for world-class, holistic, and impactful education"</p> </div>
+                <div class="statement">
+                    <h2>Our Mission</h2>
+                <p>
+                    Maximize the potential of each student, and develop life-long learning skills to ensure academic success now and in the future <br>Equip our students with the core values that will ensure they grow into happy, confident, resilient, and responsible adults <br>Develop leadership & social skills needed to stand-out and grow into successful global leaders of people,<br> organizations, businesses, and governments in future
+                </p>
+                </div>
+        </div>
+        
+            
+       
+    </section>
+    <section class="news-section" data-aos="fade-down">
+        <!-- <img src="./images/admission-1.png" alt=""> -->
+        <div class="news">
+            <h1>ADMISSION FOR 2024/2025 SESSION IS ONGOING</h1>
+            <p>We are the best in town. Come join us <br>Register for our early years, nursery, primary <br> and high school classes today</p>
+            <!-- <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident odio similique praesentium blanditiis aut temporibus saepe vel, sit quod necessitatibus numquam dicta consequuntur, iure at beatae veniam! Facere aliquid molestiae officia dolorem rerum quas sunt reiciendis eius doloremque alias! Sit rerum, tenetur animi expedita dicta, incidunt voluptate autem dolores officiis dolor modi repudiandae? Ipsam cumque omnis at voluptate nisi mollitia exercitationem sapiente facilis ullam nostrum ratione excepturi, dignissimos, quae ipsa nesciunt necessitatibus obcaecati illum repellat ea, minus maiores. Et vel eos iste tenetur hic, facere atque recusandae beatae eligendi consequatur! Similique laborum ex numquam odit sed nostrum sequi. Maiores, molestias!</p> -->
+        </div>
+    </section>
+    <section class="advertisement" data-aos="fade-down">
+        <div class="div-er" data-aos="fade-right">
+            <h1>WHY JOIN US</h1>
+            <p>We are located in the bustling garden city of Port Harcourt. Founded in 1999.
+                Our reputation precedes us as we have a proven track record in delivering excellence 
+                our students have participated and won many inter-school competitions to stand out as the best at what we do don't take our word for it ask about around town. Our campus is well-equipped with the state-of-the-art facilities to bring the world to our classroom and give our students the full classroom experience
+            </p>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration:2000
+      });
+    </script> 
+
+    <script>
+        const navLink = document.getElementById("nav-links")
+        function hideMenu(){
+            navLink.style.right = "-400px"
+        }
+
+        function showMenu(){
+                navLink.style.right = "0"
+        }
+    </script>
+</body>
+</html>
