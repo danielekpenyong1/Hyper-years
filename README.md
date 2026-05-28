@@ -1,3 +1,3 @@
 # Hyper-years
-Hyper years is a mini school landing page 
+Hyper years is a mini school landing page.
 This is a personal project
